@@ -1,0 +1,52 @@
+nazwa_tagu - odnosi się do całego
+# - odnosi się do id
+. - odnosi się do klasy
+
+background-color (kolorBackgroundu)
+background-image: url("paper.gif")  (zdjęcie_bg)
+background-repeat: repeat-x/repeat-y/no-repeat (czy zdjęcie się powtarza jak się skończy)
+background-attachment: scroll lub fixed (czy background się rusza jak się scrolluje)
+background-position: np right top
+background (magiczny skrót do którego mozna dokleić wszystkie cechy powyzszych atrybutów)
+
+border-style: dotted/dashed/solid/double/groove/ridge/inset/outset/none/hidden
+border-width: albo jednostka miary, albo thin/medium/thick
+border-color: kolor
+mozna robić z osobna boki np border-left-style:
+border (odnosi się do wszystkiego)
+
+margin-top/margin-right/margin-bottom/margin-left: jednostka/%/auto (auto centruje diva)
+padding tak samo działa
+
+height/width: jednostka/%/auto/initial (default)/inherit
+
+BOX MODEL: czyli blok na stronie powinien w teorii mieć obramowanie border, margin z zewnątrz, padding wewnątrz
+
+outline-width:
+outline-color:
+outline-style: dotted/dashed/solid/double/groove/ridge/inset/outset/none/hidden
+
+text-color:
+text-align: center/left/right/justify(wyjustuj)
+vertical-align: baseline/text-top/text-bottom/sup/super
+text-shadow: jednostka
+
+przy linkach mozna dac a:link/visited/hover/active
+
+list-style-type: circle/square/upper-roman/lower-alpha
+
+display: none (nie ma czegos)/ hidden (niewidzialne)/ inline
+
+position: static/relative/fixed/absolute/sticky
+
+overflow: visible/hidden/scroll/auto (działa tylko na elementy z ustaloną wysokością)
+
+float: left right none inherit
+
+GRID:
+display: grid 
+grid-template-columns: 50% 20% 30%;
+column-gap
+row-gap
+
+

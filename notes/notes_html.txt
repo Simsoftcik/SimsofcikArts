@@ -1,0 +1,55 @@
+<!DOCKTYPE html>
+deklaracja pisania w html <html></html>
+metadane <head></head>
+część widoczna <body></body>
+załączenie css <link rel="stylesheet" type="text/css" href="style.css" />
+paragrag <p></p>
+nagłówki <h1></h1> az do <h6>
+pogrubienie <b></b>
+kursywa <i></i>
+odnośnik <a href="url strony">tekst</a>
+zdjęcia <img src="url zdjęcia">
+enter <br>
+pozioma linia <hr>
+preformatowany tekst <pre></pre>
+górny indeks <sup></sup>
+dolny indeks <sub></sub>
+zaznaczenie <mark></mark>
+podkreślenie <ins></ins>
+przekreślenie  <del></del>
+lista punktowana <ul><li></li></ul>
+lista numerowana <ol><li></li></ol>
+lista opisowa <dl> <dt></dt> lub <dd></dd> </dl>
+tabela <table></table> to tabela, wewnątrz <tr></tr> wewnątrz <th></th>
+cytowania <blockquote></blockquote>
+
+bloki/części strony:
+główna część <main></main>
+header strony <header></header>
+zwykły blok <div></div>
+niewielki blok <span></span>
+artykuł <article></article>
+adres (ludzki) <address></address>
+stopka <footer></footer>
+sekcja dokumentu <section></section>
+nawigacja strony <nav></nav>
+blok tekstu poza głównym contentem danej sekcji <aside></aside>
+
+przykładowy formularz (tabelka do wczytywania danych)
+<form action="/action_page.php" method="get">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+pole na javascripta <script></script>
+co się wyswietli gdy javascript nie działa <noscript></noscript>
+
+film
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>

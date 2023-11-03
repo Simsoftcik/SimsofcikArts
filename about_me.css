@@ -1,0 +1,51 @@
+#middle_block {
+    display: flex;
+}
+
+
+#frame {
+    width: 90%;
+    height: auto;
+    margin: 5%;
+    border-style: solid;
+    border-color: #cbd5e1;
+    border-radius: 6px 6px 6px 6px;
+    background-color: #f1f5f9;
+    display: flex;
+}
+
+#cherryTree {
+    width: 80%;
+    height: auto;
+    /* margin-left:90px; */
+    opacity: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /* -webkit-filter: blur(2px); */
+}
+
+#myPhoto {
+    /* width: 200px; */
+    height: 100%;
+    border-right: solid;
+    border-color: #cbd5e1;
+}
+
+#aboutMeText {
+    width: 100%;
+    /* margin-left: 51px; */
+    font-family: 'Sometype Mono', monospace;
+    text-align: justify;
+    word-spacing:-2px;
+    margin: 20px;
+    line-height: 1;
+    opacity: 80%;
+}
+
+@media only screen and (max-width: 650px) {
+    #aboutMeText {
+        font-size: small;
+    }
+}
